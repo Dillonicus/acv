@@ -1,0 +1,109 @@
+---
+title: "CV"
+format: acv-pdf
+editor: source
+output-file: "`r paste0('CV_', format(Sys.Date(), '%Y%b%d'))`"
+---
+
+```{r, include = F}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  cache = FALSE
+)
+
+library(dplyr)
+library(glue)
+library(readr)
+library(rlang)
+library(knitr)
+
+detailed <- function (what = NA_character_, when = NA_character_, with = NA_character_, where = NA_character_, why = NA_character_)
+{
+
+    glue_alt <- function(...) {
+      glue::glue(..., .open = "<<", .close = ">>", .envir = parent.frame(), .na = "{}\\vspace{-4.0mm}")
+    }
+
+    why <- lapply(why, function(x) {
+        if (any(is.na(x))) {
+            "{}\\vspace{-4.0mm}"
+        }
+        else {
+            paste(c("{\\begin{cvitems}", paste("\\item", x),
+                "\\end{cvitems}}"), collapse = "\n")
+        }
+    })
+
+    paste(c("\\begin{cventries}", glue_alt("\t\\cventry{<<what>>}{<<with>>}{<<where>>}{<<when>>}<<why>>"),
+        "\\end{cventries}"), collapse = "\n")
+}
+```
+
+# Experience
+
+```{r, echo = F}
+
+jobfile <- ""
+
+jobs <- read.csv(jobfile, check.names = FALSE, na.strings = "") |>
+  filter(category %in% "statistics" | company == "Medpace") |>
+  filter(company != "University of Colorado Denver") |>
+  arrange(order, detail_id) |>
+  group_by_at(vars(-details, -detail_id)) %>%
+  summarize(details = list(unique(details))) %>%
+  arrange(order) %>%
+  ungroup()
+
+knitr::asis_output(
+  detailed(
+    what = jobs$role,
+    when = glue("{jobs$start_date} - {jobs$end_date}"),
+    with = jobs$company,
+    where = jobs$where,
+    why = jobs$details
+    )
+  )
+```
+
+# Education
+
+```{r}
+
+edfile <- ""
+education <- read.csv(edfile, check.names = FALSE, na.strings = "") |>
+  group_by_at(vars(-details, -detail_id)) %>%
+  summarize(details = list(unique(details))) %>%
+  arrange(order) %>%
+  ungroup()
+
+knitr::asis_output(
+  detailed(
+    when = glue("{education$start_date}--{education$end_date}"),
+    what = education$degree,
+    where = education$where,
+    with = education$uni,
+    why = education$details
+    )
+  )
+```
+
+# Skills
+
+```{r}
+skillfile <- ""
+skills <- read.csv(skillfile, check.names = FALSE, na.strings = "") |>
+  group_by(category) |>
+  mutate(skill = paste(skill, collapse = ", ")) |>
+  ungroup() |>
+  unique() |>
+  filter(category != "Other")
+
+knitr::asis_output(
+  detailed(
+    what = skills$skill,
+    with = skills$category
+    )
+  )
+```

@@ -1,0 +1,15 @@
+%% Options for packages loaded elsewhere
+$if(colorlinks)$
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+$endif$
+$if(CJKmainfont)$
+\PassOptionsToPackage{space}{xeCJK}
+$endif$
+
+$doc-class.tex()$
+
+\begin{document}
+$before-body.tex()$
+$body$
+$biblio.tex()$
+\end{document}

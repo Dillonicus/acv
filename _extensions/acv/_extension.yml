@@ -1,0 +1,17 @@
+title: Awesome CV Template
+author: Dillon Corrigan
+version: 0.0.1
+contributes:
+  format:
+    pdf:
+      pdf-engine: xelatex
+      documentclass: acv
+      highlight-style: none
+      template: "acv-template.tex"
+      template-partials:
+        - "partials/doc-class.tex"
+        - "partials/before-body.tex"
+        - "partials/pandoc.tex"
+        - "partials/biblio.tex"
+      format-resources:
+        - "acv.cls"
