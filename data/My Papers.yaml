@@ -1,0 +1,325 @@
+---
+references:
+- id: beksac2021
+  accessed:
+    - year: 2022
+      month: 3
+      day: 4
+  author:
+    - family: Beksac
+      given: Alp Tuna
+    - family: Corrigan
+      given: Dillon
+    - family: Zeinab
+      given: Mahmoud Abou
+    - family: Schwen
+      given: Zeyad
+    - family: Aminsharifi
+      given: Alireza
+    - family: Kaouk
+      given: Jihad
+  citation-key: beksac2021
+  container-title: Journal of Urology
+  container-title-short: Journal of Urology
+  DOI: 10.1097/JU.0000000000002094.07
+  ISSN: 0022-5347, 1527-3792
+  issue: Supplement 3
+  issued:
+    - year: 2021
+      month: 9
+  language: en
+  source: DOI.org (Crossref)
+  title: >-
+    LONG TERM COMPARATIVE OUTCOMES OF ROBOTIC PARTIAL NEPHRECTOMY AND
+    CRYOABLATION IN PATIENTS WITH SOLITARY KIDNEYS: A SINGLE CENTER ANALYSIS
+  title-short: >-
+    MP59-07 LONG TERM COMPARATIVE OUTCOMES OF ROBOTIC PARTIAL NEPHRECTOMY AND
+    CRYOABLATION IN PATIENTS WITH SOLITARY KIDNEYS
+  type: article-journal
+  URL: http://www.jurology.com/doi/10.1097/JU.0000000000002094.07
+  volume: '206'
+
+- id: bole2022
+  accessed:
+    - year: 2022
+      month: 3
+      day: 4
+  author:
+    - family: Bole
+      given: Raevti
+    - family: Gottlich
+      given: Harrison Chase
+    - family: Ziegelmann
+      given: Matthew J.
+    - family: Corrigan
+      given: Dillon
+    - family: Levine
+      given: Laurence A.
+    - family: Mulhall
+      given: John P.
+    - family: Bajic
+      given: Petar
+  citation-key: bole2022
+  container-title: The Journal of Sexual Medicine
+  container-title-short: The Journal of Sexual Medicine
+  DOI: 10.1016/j.jsxm.2022.01.008
+  ISSN: '17436095'
+  issued:
+    - year: 2022
+      month: 2
+  language: en
+  page: S1743609522000352
+  source: DOI.org (Crossref)
+  title: >-
+    A Critical Analysis of Reporting in Systematic Reviews and Meta-Analyses in
+    the Peyronie's Disease Literature
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S1743609522000352
+
+- id: chan2022
+  abstract: |-
+    Abstract
+                
+                  Cribriform growth pattern is well-established as an adverse pathologic feature in prostate cancer. The literature suggests “large” cribriform glands associate with aggressive behavior; however, published studies use varying definitions for “large”. We aimed to identify an outcome-based quantitative cut-off for “large” vs “small” cribriform glands. We conducted an initial training phase using the tissue microarray based Canary retrospective radical prostatectomy cohort. Of 1287 patients analyzed, cribriform growth was observed in 307 (24%). Using Kaplan–Meier estimates of recurrence-free survival curves (RFS) that were stratified by cribriform gland size, we identified 0.25 mm as the optimal cutoff to identify more aggressive disease. In univariable and multivariable Cox proportional hazard analyses, size >0.25 mm was a significant predictor of worse RFS compared to patients with cribriform glands ≤0.25 mm, independent of pre-operative PSA, grade, stage and margin status (
+                  p
+                   < 0.001). In addition, two different subset analyses of low-intermediate risk cases (cases with Gleason score ≤ 3 + 4 = 7; and cases with Gleason score = 3 + 4 = 7/4 + 3 = 7) likewise demonstrated patients with largest cribriform diameter >0.25 mm had a significantly lower RFS relative to patients with cribriform glands ≤0.25 mm (each subset
+                  p
+                   = 0.004). Furthermore, there was no significant difference in outcomes between patients with cribriform glands ≤ 0.25 mm and patients without cribriform glands. The >0.25 mm cut-off was validated as statistically significant in a separate 419 patient, completely embedded whole-section radical prostatectomy cohort by biochemical recurrence, metastasis-free survival, and disease specific death, even when cases with admixed Gleason pattern 5 carcinoma were excluded. In summary, our findings support reporting cribriform gland size and identify 0.25 mm as an optimal outcome-based quantitative measure for defining “large” cribriform glands. Moreover, cribriform glands >0.25 mm are associated with potential for metastatic disease independent of Gleason pattern 5 adenocarcinoma.
+  accessed:
+    - year: 2022
+      month: 3
+      day: 4
+  author:
+    - family: Chan
+      given: Emily
+    - family: McKenney
+      given: Jesse K.
+    - family: Hawley
+      given: Sarah
+    - family: Corrigan
+      given: Dillon
+    - family: Auman
+      given: Heidi
+    - family: Newcomb
+      given: Lisa F.
+    - family: Boyer
+      given: Hilary D.
+    - family: Carroll
+      given: Peter R.
+    - family: Cooperberg
+      given: Matthew R.
+    - family: Klein
+      given: Eric
+    - family: Fazli
+      given: Ladan
+    - family: Gleave
+      given: Martin E.
+    - family: Hurtado-Coll
+      given: Antonio
+    - family: Simko
+      given: Jeffry P.
+    - family: Nelson
+      given: Peter S.
+    - family: Thompson
+      given: Ian M.
+    - family: Tretiakova
+      given: Maria S.
+    - family: Troyer
+      given: Dean
+    - family: 'True'
+      given: Lawrence D.
+    - family: Vakar-Lopez
+      given: Funda
+    - family: Lin
+      given: Daniel W.
+    - family: Brooks
+      given: James D.
+    - family: Feng
+      given: Ziding
+    - family: Nguyen
+      given: Jane K.
+  citation-key: chan2022
+  container-title: Modern Pathology
+  container-title-short: Mod Pathol
+  DOI: 10.1038/s41379-022-01009-7
+  ISSN: 0893-3952, 1530-0285
+  issued:
+    - year: 2022
+      month: 2
+      day: 10
+  language: en
+  source: DOI.org (Crossref)
+  title: >-
+    Analysis of separate training and validation radical prostatectomy cohorts
+    identifies 0.25 mm diameter as an optimal definition for “large” cribriform
+    prostatic adenocarcinoma
+  type: article-journal
+  URL: https://www.nature.com/articles/s41379-022-01009-7
+
+- id: lenfant2021
+  accessed:
+    - year: 2022
+      month: 3
+      day: 4
+  author:
+    - family: Lenfant
+      given: Louis
+    - family: Corrigan
+      given: Dillon
+    - family: Beksac
+      given: Alp Tuna
+    - family: Schwen
+      given: Zeyad
+    - family: Kaouk
+      given: Jihad
+  citation-key: lenfant2021
+  container-title: BJU International
+  container-title-short: BJU Int
+  DOI: 10.1111/bju.15588
+  ISSN: 1464-4096, 1464-410X
+  issue: '6'
+  issued:
+    - year: 2021
+      month: 12
+  language: en
+  page: 688-691
+  source: DOI.org (Crossref)
+  title: >-
+    Learning curve analysis of single‐port robot‐assisted extraperitoneal
+    prostatectomy using the cumulative sum (CUSUM) method
+  type: article-journal
+  URL: https://onlinelibrary.wiley.com/doi/10.1111/bju.15588
+  volume: '128'
+
+- id: lone2021
+  accessed:
+    - year: 2022
+      month: 3
+      day: 4
+  author:
+    - family: Lone
+      given: Zaeem
+    - family: Campbell
+      given: Rebecca A.
+    - family: Corrigan
+      given: Dillon
+    - family: Ramkumar
+      given: Rathika
+    - family: Hegde
+      given: Pranay
+    - family: Rahmy
+      given: Abdelrahman
+    - family: Murthy
+      given: Prithvi B.
+    - family: Haber
+      given: Georges Pascal
+    - family: Almassi
+      given: Nima
+    - family: Lee
+      given: Byron H.
+  citation-key: lone2021
+  container-title: 'Urologic Oncology: Seminars and Original Investigations'
+  container-title-short: 'Urologic Oncology: Seminars and Original Investigations'
+  DOI: 10.1016/j.urolonc.2021.09.006
+  ISSN: '10781439'
+  issued:
+    - year: 2021
+      month: 10
+  language: en
+  page: S1078143921004294
+  source: DOI.org (Crossref)
+  title: >-
+    Ability of the surgical Apgar score to predict acute kidney injury following
+    radical cystectomy
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S1078143921004294
+
+- id: murthy2021
+  abstract: >-
+    Objectives: To determine the impact of prior pelvic radiation therapy (XRT)
+    on outcomes following radical cystectomy (RC) for bladder cancer. Materials
+    and methods: We performed a retrospective review comparing patients with
+    bladder cancer requiring RC and prior history of XRT for prostate cancer to
+    those undergoing RC without XRT history at our institution from 2011-2018.
+    Propensity score matching was performed with the following variables: age,
+    chronic kidney disease, nutritional deﬁciency, neoadjuvant chemotherapy use,
+    Charlson comorbidity index, surgical approach, urinary diversion type, and
+    pathologic T-stage. Perioperative, pathologic and oncologic outcomes were
+    analyzed. Outcome measurements and statistical analysis: Categorical
+    variables were assessed utilizing the Pearson Chi Square Test, and
+    continuous variables with the Wilcoxon rank-sum test. The Kaplan-Meier
+    method with stratiﬁed-log rank was used to compare survival outcomes.
+    Multivariable Cox proportional hazards models were utilized to identify
+    predictors of overall and recurrence free survival.
+
+    Results: 227 patients were included, of which 47 had radiotherapy for
+    prostate cancer. 47% of patients in the radiation cohort received external
+    beam radiation therapy, 47% received brachytherapy and 7% received both.
+    There were no differences in recurrence-free survival (P = 0.82) or overall
+    survival (P = 0.25). Statistically signiﬁcant differences in perioperative
+    or postoperative outcomes such as 90-day complication, readmission,
+    mortality rates, or ureteroenteric anastomotic stricture rates were not
+    found. Rates of node-positive disease, median lymph node yield, positive
+    surgical margin rates, lymphovascular invasion, or variant histology were
+    not signiﬁcantly different between cohorts.
+
+    Conclusions: After matching for T-stage and other clinical variables,
+    history of pelvic XRT for prostate cancer in patients who later required RC
+    for bladder cancer, was not associated with an increased rate of
+    perioperative complications or an independent predictor of RFS or OS. Ó 2021
+    Elsevier Inc. All rights reserved.
+  accessed:
+    - year: 2021
+      month: 8
+      day: 17
+  author:
+    - family: Murthy
+      given: Prithvi B.
+    - family: Lone
+      given: Zaeem
+    - family: Corrigan
+      given: Dillon
+    - family: Campbell
+      given: Rebecca
+    - family: Munoz-Lopez
+      given: Carlos
+    - family: Caveney
+      given: Maxx
+    - family: Gerber
+      given: Daniel
+    - family: Ericson
+      given: Kyle J.
+    - family: Thomas
+      given: Lewis
+    - family: Zhang
+      given: Jj H.
+    - family: Kaouk
+      given: Jihad
+    - family: Weight
+      given: Christopher
+    - family: Berglund
+      given: Ryan
+    - family: Haber
+      given: Georges-Pascal
+    - family: Lee
+      given: Byron H.
+  citation-key: murthy2021
+  container-title: 'Urologic Oncology: Seminars and Original Investigations'
+  container-title-short: 'Urologic Oncology: Seminars and Original Investigations'
+  DOI: 10.1016/j.urolonc.2021.06.017
+  ISSN: '10781439'
+  issued:
+    - year: 2021
+      month: 8
+  language: en
+  page: S1078143921002763
+  source: DOI.org (Crossref)
+  title: >-
+    Survival outcomes following radical cystectomy in patients with prior pelvic
+    radiation for prostate cancer: A matched cohort analysis
+  title-short: >-
+    Survival outcomes following radical cystectomy in patients with prior pelvic
+    radiation for prostate cancer
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S1078143921002763
+...
